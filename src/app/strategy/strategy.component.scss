@@ -1,0 +1,105 @@
+.content {
+  height: 1933px;
+  width: 1440px;
+  background-color: rgba(238, 60, 21, 0.5);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+
+.guarantee {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+.guarantee-icon {
+  height: 32px;
+  width: 32px;
+}
+
+.guarantee-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.guarantee-text-main,
+.guarantee-text-link {
+  text-align: left;
+  vertical-align: top;
+  font-size: 14px;
+  font-family: Helvetica;
+  line-height: 20%;
+  color: #2f2c26;
+}
+.guarantee-text-link {
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.cta-open-account {
+  height: 51px;
+  width: 233px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-text-open {
+  text-align: center;
+  vertical-align: top;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Helvetica;
+  line-height: auto;
+  color: #ffffff;
+  margin: 0;
+  background-color: #ee3c15;
+  border: none;
+  border-radius: 2px;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+
+.cta-book-consultation {
+  height: 51px;
+  width: 233px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: 0.5px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-text-book {
+  text-align: center;
+  vertical-align: top;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Helvetica;
+  line-height: auto;
+  color: #2f2c26;
+  margin: 0;
+}
+
+
+.chat {
+  height: 50px;
+  width: 110px;
+}
+

@@ -1,0 +1,142 @@
+.page-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #f8f6f1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  width: 100%;
+}
+
+.logo-and-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 56px;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 26px 0px;
+  gap: 8px;
+}
+
+.menu-link {
+  text-align: center;
+  vertical-align: top;
+  font-size: 14px;
+  font-family: Helvetica Now Display;
+  line-height: 20%;
+  color: #2f2c26;
+  text-decoration: none;
+}
+
+.header-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+}
+
+.account-selector {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.dropdown {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 4px;
+  background-color: #f8f6f1;
+}
+
+.tree-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.account-type {
+  text-align: center;
+  vertical-align: top;
+  font-size: 14px;
+  font-family: Helvetica Now Display;
+  line-height: 18%;
+  color: #2f2c26;
+}
+
+.menu-icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px;
+  gap: 10px;
+  background-color: #ffffff;
+}
+
+.burger-img {
+  height: 24px;
+  width: 24px;
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+  .header-content {
+    padding: 0 20px;
+  }
+
+  .logo-and-menu {
+    gap: 16px;
+  }
+
+  .menu-items {
+    gap: 16px;
+  }
+
+  .header-icons {
+    gap: 16px;
+  }
+}

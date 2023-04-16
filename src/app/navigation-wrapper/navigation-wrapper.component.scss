@@ -1,0 +1,18 @@
+.desktop-navigation-component {
+  display: none;
+}
+
+.mobile-navigation-component {
+  display: block;
+}
+
+/* Use media queries to switch between desktop and mobile navigation */
+@media screen and (min-width: 768px) {
+  .desktop-navigation-component {
+    display: block;
+  }
+
+  .mobile-navigation-component {
+    display: none;
+  }
+}

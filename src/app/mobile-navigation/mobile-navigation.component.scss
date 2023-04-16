@@ -1,0 +1,69 @@
+.page-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #f8f6f1;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-navigation {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  width: calc(100% - 32px);
+  padding: 0 16px;
+}
+
+.top-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 12px;
+}
+
+.logo {
+  height: 32px;
+}
+
+.logo > img{
+  height: 32px;
+}
+
+.zendesk-and-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+
+.zendesk-icon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+}
+
+.notification-icon {
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.menu-icon {
+  height: 40px;
+  width: 40px;
+}

@@ -1,0 +1,37 @@
+<div class="page-container">
+  <div class="header">
+    <div class="header-content">
+      <div class="logo-and-menu">
+        <div class="logo">
+          <img src="../../assets/inyova.png"/>
+          <img src="../../assets/windmill.png"/>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item">
+            <a class="menu-link" routerLink="/strategy" routerLinkActive="menu-item-active">Strategy</a>
+            <div class="underline" *ngIf="routerLinkActive === '/strategy'"></div>
+          </div>
+          <div class="menu-item">
+            <a class="menu-link" routerLink="/next-steps" routerLinkActive="menu-item-active">Next Steps</a>
+            <div class="underline" *ngIf="routerLinkActive === '/next-steps'"></div>
+          </div>
+        </div>
+      </div>
+      <div class="header-icons">
+        <div class="account-selector">
+          <div class="dropdown">
+            <img class="tree-icon" src="../../assets/tree.png"/>
+            <p class="account-type">Inyova investment </p>
+            <img class="chevron-icon" src="../../assets/chevron.png"/>
+          </div>
+        </div>
+        <div class="menu-icon-container">
+          <div class="hamburger-icon">
+            <img class="burger-img" src="../../assets/burger.png"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>
