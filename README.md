@@ -1,27 +1,29 @@
-# InyovaCustomerOnboardingHw
+# Inyova Customer Onboarding Homework
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+This project is an Angular application that focuses on implementing a personal details feature for Inyova's customer onboarding process. It was generated with Angular CLI version 15.2.6.
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This assignment involves creating an Angular application with two main screens, which include a personal details feature based on the provided design.
 
-## Code scaffolding
+The assignment should contain these Angular features:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ - Routing and Navigation
+ - Reactive Forms
+ - State Management (preferably NgRx)
 
-## Build
+Additionally, at least one Angular Best Practice should be implemented.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Acceptance Criteria
 
-## Running unit tests
+As a customer, I want to fill in my personal information.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ - Given that I filled in all the fields, I want to save the information with the 'Continue' button.
+ - Given that I successfully saved my personal information, I want to have them loaded even after a browser refresh.
 
-## Running end-to-end tests
+## Steps to run the project
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ - Clone the repository: git clone https://github.com/Potasya/inyova-customer-onboarding-hw
+ - Install dependencies: npm install
+ - Start the development server: ng serve
+ - Open your browser and navigate to: http://localhost:4200/
