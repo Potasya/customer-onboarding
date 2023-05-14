@@ -1,6 +1,6 @@
-# Inyova Customer Onboarding Homework
+# Customer Onboarding
 
-This project is an Angular application that focuses on implementing a personal details feature for Inyova's customer onboarding process. It was generated with Angular CLI version 15.2.6.
+This project is an Angular application that focuses on implementing a personal details feature for customer onboarding process. It was generated with Angular CLI version 15.2.6.
 
 ## Description
 
@@ -23,7 +23,7 @@ As a customer, I want to fill in my personal information.
 
 ## Steps to run the project
 
- - Clone the repository: git clone https://github.com/Potasya/inyova-customer-onboarding-hw
+ - Clone the repository: git clone https://github.com/Potasya/customer-onboarding
  - Install dependencies: npm install
  - Start the development server: ng serve
  - Open your browser and navigate to: http://localhost:4200/
