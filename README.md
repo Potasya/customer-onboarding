@@ -4,15 +4,13 @@ This project is an Angular application that focuses on implementing a personal d
 
 ## Description
 
-This assignment involves creating an Angular application with two main screens, which include a personal details feature based on the provided design.
+Angular application with two main screens, which include a personal details feature based on the provided design.
 
-The assignment should contain these Angular features:
+Angular features:
 
  - Routing and Navigation
  - Reactive Forms
- - State Management (preferably NgRx)
-
-Additionally, at least one Angular Best Practice should be implemented.
+ - State Management
 
 ## Acceptance Criteria
 
